@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,800;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: linear-gradient(#6e5e87, #7597de);
+    background-image: url('https://static1.srcdn.com/wordpress/wp-content/uploads/2021/09/Marvel-Studios-logo-2021.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+header .logo {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: None;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header ul {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a.active {
+    background-color: #fff;
+    color: #2b1055
+}
+
+#text {
+    margin-top: 80px;
+    color: #fff;
+}
+
+.filmm {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.filmm div {
+    margin-left: 10px;
+    color: #fff;
+}
+
+.video p {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+.video iframe {
+    margin-left: 220px;
+    width: 800px;
+    height: 500px;
+    /* display: flex;
+    justify-items: center; */
+}
+
+input {
+    width: 200px;
+    height: 50px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: center;
+    align-content: center;
+    margin-left: 30px;
+    margin-block: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 2px;
+    cursor: pointer;
+}
+
+button {
+    margin-left: 30px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 2px;
+    cursor: pointer;
+}
+
+.cen {
+    display: flex;
+    color: #fff
+}
+
