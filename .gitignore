@@ -3,7 +3,7 @@
 **/*venv
 **/venv
 **/**/venv
-
+**/**/**/venv
 ### Django ###
 *.log
 *.pot
